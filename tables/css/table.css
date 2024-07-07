@@ -1,0 +1,36 @@
+table{
+  width: 100%;;
+  border-collapse: collapse;
+  padding: 2px;
+  border :1px solid rgb(201, 204, 201);
+  margin: auto;
+}
+caption{
+  text-transform: uppercase;
+  border: 2px solid rgb(201, 204, 201);
+  padding: 15px;
+  font-size: 12px;
+}
+
+table tr{
+  border: 1px solid rgb(201, 204, 201);
+}
+table th, table td{
+  border-inline: 2px solid rgb(201, 204, 201);
+  padding: 4px;
+}
+table th{
+  text-transform: capitalize;
+}
+
+.name{
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+}
+.first{
+  border-top: 3px solid rgb(0, 0, 0);
+}
+.last{
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
